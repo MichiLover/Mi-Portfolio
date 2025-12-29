@@ -1,0 +1,63 @@
+/* Configuración General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212; /* Fondo oscuro pro */
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 3rem 1rem;
+    text-align: center;
+    border-bottom: 2px solid #3d5afe;
+}
+
+header h1 {
+    margin: 0;
+    color: #3d5afe; /* Azul brillante */
+}
+
+/* Sección de Proyectos */
+#proyectos {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.proyecto-card {
+    background-color: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #333;
+    margin-bottom: 1.5rem;
+}
+
+/* Botones y Links */
+a {
+    color: #3d5afe;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: #3d5afe;
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: #888;
+}
